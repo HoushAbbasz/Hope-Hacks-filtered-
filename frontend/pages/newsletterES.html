@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <!-- MONTSERRAT FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- TAILWIND -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+   <!-- TAB ICON -->
+    <link rel="icon" type="Custom Logo Icon" href="../Assets/images/nav/logo.png"/>
+
+    <title>Claridad Cívica</title>
+</head>
+
+<body class="flex flex-col items-center p-0 m-0 h-full w-full bg-gradient-to-br from-[#E8EDDF] via-[#CFDBD5] to-[#FDF0D5] font-[Montserrat] text-[#242423]]">
+
+    <!-- HEADER -->
+    <header class='sticky top-0 z-50 bg-gradient-to-br from-[#f5ecd5] to-[#FDF0D5] w-full shadow-[0_4px_8px_rgba(0,0,0,0.2)]'>
+
+
+        <!-- LOGO -->
+        <div class='flex flex-row justify-between text-[1.5rem] font-medium w-full'>
+            <a href='indexES.html'>
+              <img style='width: 9.5rem' src='../Assets/images/nav/logo.png' alt='Logo'>
+            </a>
+            <!-- BUTTON -->
+            <a class='mt-[2rem] mr-[4.5rem] min-[768px]:mr-[2.5rem]' href='newsletter.html' aria-label='translate webpage to spanish'>
+            <button class='relative overflow-hidden text-[0.9rem] p-[0.6rem] bg-[#003049] rounded-[2rem] shadow-md active:translate-y-0.5 text-[white] lg:mt-[-5rem] lg:text-[1.1rem] before:absolute before:inset-0 before:bg-[#669bbc] before:origin-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100 z-0'>
+              <span class="relative z-10">Para Ingles</span>
+            </button>
+            </a>
+        </div>
+
+        <!-- HAMBURGER CLASS NAME (hamburger-Menu)-->
+            <img src='../Assets/images/nav/hamburger.png' alt='Menú Hamburguesa' class='fixed top-[1.8rem] right-[0.6rem] cursor-pointer hamburger-Menu min-[768px]:hidden' style='width: 3rem'>
+        <nav>
+            <!-- LARGE/DESKTOP NAV -->
+            <ul class='flex flex-row gap-[1.2rem] justify-end mr-[2.5rem] mt-[-1rem] mb-[0.2rem] font-[1rem] tracking-wide text-[1.2rem] max-[767px]:hidden lg:text-[1.3rem]'>
+                <li><a href='indexES.html' class='hover:text-[#4db394]'>Inicio</a></li>
+                <li><a href='kyrES.html' class='hover:text-[#4db394]'>Recursos</a></li>
+                <li><a href='mapES.html' class='hover:text-[#4db394]'>Buscar</a></li>
+                <li><a href='newsletterES.html' class='hover:text-[#4db394]'>Articulos</a></li>
+            </ul>  
+
+            <!-- SMALL/MOBILE NAV  CLASS NAME (navbar-Menu) -->
+            <ul class='hidden flex flex-col text-center h-full w-full top-0 left-0 gap-[2.5rem] py-[2rem] text-black text-[1.5rem] font-medium navbar-Menu min-[768px]:hidden'>
+                <li><a href='indexES.html' class='hover:underline hover:decoration-[#4db394]'>Inicio</a></li>
+                <li><a href='kyrES.html' class='hover:underline hover:decoration-[#4db394]'>Recursos</a></li>
+                <li><a href='mapES.html' class='hover:underline hover:decoration-[#4db394]'>Buscar</a></li>
+                <li><a href='newsletterES.html' class='hover:underline hover:decoration-[#4db394]'>Articulos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section class="max-w-6xl mx-auto px-6 py-12">
+    <h1 class="pb-8 text-3xl md:text-4xl font-bold mb-4">ÚLTIMAS NOTICIAS</h1>  
+  <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-2">
+
+    <!-- Card 1 -->
+    <article class="group rounded-2xl overflow-hidden bg-[#fffbfa] shadow-lg hover:shadow-2xl transition">
+      <div class="overflow-hidden">
+        <a href="https://alabamareflector.com/2026/01/29/house-committee-approves-bill-to-allow-local-agencies-to-enforce-immigration-laws/">
+          <img 
+          src="../Assets/images/news/news1.jpg"
+          alt="profile of Ernie Yarbrough (politician)"
+          class="w-full h-56 object-cover group-hover:scale-105 transition duration-300"
+          >
+        </a>
+        
+      </div>
+
+      <div class="p-6">
+        <p class="text-xs uppercase tracking-wide text-gray-500 mb-2">
+          29 de enero de 2026
+        </p>
+
+        <h1 class="text-lg font-semibold leading-snug text-gray-900 group-hover:underline transition">
+          Comité de la Cámara aprueba proyecto de ley para permitir que agencias locales apliquen leyes de inmigración
+        </h1>
+      </div>
+    </article>
+
+    <!-- Card 2 -->
+    <article class="group rounded-2xl overflow-hidden bg-[#fffbfa] shadow-lg hover:shadow-2xl transition">
+      <div class="overflow-hidden">
+        <a href="https://www.pbs.org/newshour/politics/appeals-court-rules-noems-decision-to-end-protections-for-venezuelans-in-u-s-was-illegal">
+          <img 
+          src="../Assets/images/news/news2.jpg"
+          alt="profile of Homeland Security Secretary Kristi Noem"
+          class="w-full h-56 object-cover group-hover:scale-105 transition duration-300" 
+          >
+        </a>
+        
+      </div>
+
+      <div class="p-6">
+        <p class="text-xs uppercase tracking-wide text-gray-500 mb-2">
+          29 de enero de 2026
+        </p>
+
+        <h1 class="text-lg font-semibold leading-snug text-gray-900 group-hover:underline transition">
+          Corte de apelaciones dictamina que la decisión de Noem de terminar protecciones para venezolanos en EE.UU. fue ilegal
+        </h1>
+      </div>
+    </article>
+
+    <!-- Card 3 -->
+    <article class="group rounded-2xl overflow-hidden bg-[#fffbfa] shadow-lg hover:shadow-2xl transition">
+      <div class="overflow-hidden">
+        <a href="https://www.bbc.com/news/articles/c78vgnz3z6eo">
+          <img 
+          src="../Assets/images/news/news3.jpg"
+          alt="protesters holding 'We the people' banner"
+          class="w-full h-56 object-cover group-hover:scale-105 transition duration-300" 
+          >
+        </a>
+        
+      </div>
+
+      <div class="p-6">
+        <p class="text-xs uppercase tracking-wide text-gray-500 mb-2">
+          31 de enero de 2026
+        </p>
+
+        <h1 class="text-lg font-semibold leading-snug text-gray-900 group-hover:underline transition">
+          Juez federal niega solicitud para bloquear aumento de ICE en Minnesota
+        </h1>
+      </div>
+    </article>
+
+    <!-- Card 4 -->
+    <article class="group rounded-2xl overflow-hidden bg-[#fffbfa] shadow-lg hover:shadow-2xl transition">
+      <div class="overflow-hidden">
+        <a href="https://www.nbcnews.com/news/us-news/lawsuit-challenges-ice-ability-enter-homes-warrants-judges-rcna256741">
+          <img 
+          src="../Assets/images/news/news4.jpg" 
+          alt="Ice agents detaining a man in a grey sweater"
+          class="w-full h-56 object-cover group-hover:scale-105 transition duration-300" 
+          >
+        </a>
+        
+      </div>
+
+      <div class="p-6">
+        <p class="text-xs uppercase tracking-wide text-gray-500 mb-2">
+          30 de enero de 2026
+        </p>
+
+        <h1 class="text-lg font-semibold leading-snug text-gray-900 group-hover:underline transition">
+          Demanda cuestiona la capacidad de ICE de entrar a hogares sin orden judicial
+        </h1>
+      </div>
+    </article>
+</section>
+
+    <div class="w-full max-w-xl rounded-xl p-10 backdrop-blur-sm bg-[#fdf0d5] drop-shadow-2xl mb-12">
+
+      <!-- Form Header -->
+      <div class="flex flex-col items-center justify-between mb-6">
+        <h1 class="text-xl font-semibold mb-4">Suscribirse</h3>
+          <hr class="h-1">
+        <h3 class="text-lg" >¡Suscríbase a nuestro boletín para mantenerse actualizado!</h4>
+      </div>
+
+      <!-- Register Form -->
+      <form id="register-form" class="flex flex-col gap-3">
+
+        <input
+          id="reg-name"
+          type="name"
+          placeholder="Ingrese su nombre (opcional)"
+          class="w-full border rounded-full px-3 py-2"
+        />
+
+        <input
+          id="reg-email"
+          type="email"
+          placeholder="Ingrese su dirección de correo electrónico"
+          class="w-full border rounded-full px-3 py-2"
+          required
+        />
+
+        <!-- Error Message -->
+        <p id="email-error" class="hidden text-sm text-red-600 ml-2"></p>
+        <!-- Success Message -->
+        <p id="success-message" class="hidden text-sm text-green-700 ml-2"></p>
+
+        <button id="submit" class=" relative overflow-hidden group font-semibold text-white py-2 px-5 rounded-full bg-[#003049]">
+          <span class="absolute inset-0 -translate-x-full bg-[#669bbc] transition-transform duration-300 group-hover:translate-x-0"></span>
+          <span class="relative z-10 group-hover:text-white transition-colors duration-300">Enviar</span>
+        </button>
+      </form>
+
+    </div>
+
+    <!--FOOTER -->
+  <div class='relative z-20 w-full h-full shadow-[0_-2px_4px_rgba(0,0,0,0.1)]'>
+
+<footer class='flex flex-col bg-gradient-to-br from-[#f5ecd5] to-[#FDF0D5] pt-[0.8rem]'>
+
+      <h2 class='font-semibold tracking-wider text-[1.2rem] text-left pl-[0.5rem] lg:text-[1.5rem]'>CLARIDAD CÍVICA</h2>
+      <p class='text-[0.7rem] text-left pl-[0.5rem] text-[#595959] pb-[0.5rem] lg:text-[1rem]'>Diseñado y Potenciado Por La Juventud.</p>
+
+      <div class='flex flex-row px-[1.5rem] justify-end gap-[3rem] font-medium text-[0.8rem] py-[1.2rem]'>
+
+        <!-- FOOTER COL 1 -->
+        <div class='flex flex-col'>
+          <ol class='text-[#595959] lg:text-[1.1rem]'>
+            <li><a href='mapES.html' class='hover:underline hover:decoration-black'>Firmas Cerca de Usted</a></li>
+            <li><a href='newsletterES.html' class='hover:underline hover:decoration-black'>Artículos</a></li>
+            <li><a href='mailto:civicclarity18@gmail.com?subject=Contact%20Civic%20Clarity&body=Hello%20Civic%20Clarity%20Team,%0A%0A" aria-label="Email Civic Clarity support' class='hover:underline hover:decoration-black'>Contáctenos</a></li>
+          </ol>
+        </div>
+
+        <!-- FOOTER COL 2 -->
+        <div class="flex flex-col">
+          <ol class='text-[#595959] lg:text-[1.1rem]'>
+            <li><a href='#' class='hover:underline hover:decoration-black'>Política de Privacidad</a></li>
+            <li><a href='#' class='hover:underline hover:decoration-black'>Licencia</a></li>
+            <li><a href='#' class='hover:underline hover:decoration-black'>Términos de Uso</a></li>
+          </ol>
+
+        </div>
+      </div>
+
+
+      <div class='w-full h-full flex flex-row justify-between p-[0.5rem] border-t-[0.1px] border-[#595959]'>
+        <!-- COPYRIGHT -->
+        <p class='my-[0.2rem] font-[medium] text-[0.9rem] lg:text-[1.3rem]'>@ 2026 Claridad Cívica</p>
+
+            <!-- SOCIAL MEDIA -->
+          <ul class='flex flex-row gap-[1.2rem]'>
+            <a href="https://www.facebook.com/" target="_blank" aria-label="facebook" style='width: 1.8rem'>
+              <img src="../Assets/images/nav/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram" style='width: 1.8rem'>
+              <img src="../Assets/images/nav/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://x.com/" target="_blank" aria-label="Twitter" style='width: 1.8rem'>
+              <img src="../Assets/images/nav/twitter.png" alt="Twitter">
+            </a>
+          </ul>
+      </div>
+
+    </footer>
+
+
+
+  <script src="../js/hamburger.js"></script>
+  <script src="../js/config.js"></script>
+  <script src="../js/emailes.js"></script>
+  <script src="../js/backToTop.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</body>
+
+
+</html>
