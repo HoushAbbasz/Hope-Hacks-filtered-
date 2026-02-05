@@ -246,7 +246,7 @@ function showAllLocations() {
    });
   
    // display all markers as cards in the sidebar, adjust the map zoom and center to fit all visible markers
-   displayCards(allMarkers, 'Todas las ubicaciones de asistencia legal');
+   displayCards(allMarkers, 'Todas las ubicaciones de asistencia');
    fitMapToMarkers(allMarkers);
 }
 
@@ -515,7 +515,7 @@ function displayNearestCards(nearest, userAddress, userLocation = null) {
    if (nearest) {
        html += `
            <div class="bg-white rounded-xl border border-black/10 p-4 shadow-sm hover:shadow-md transition mb-4">
-               <div class="text-xs font-semibold text-[#669BBC] uppercase mb-2">Asistencia legal</div>
+               <div class="text-xs font-semibold text-[#669BBC] uppercase mb-2">Asistencia</div>
                <div class="text-lg font-bold text-[#242423] mb-2">${nearest.title}</div>
                <div class="text-sm font-semibold text-[#34a853] mb-2">A ${nearest.distance.toFixed(2)} millas de distancia</div>
                <div class="text-sm text-[#242423]/70 mb-2">${nearest.address}</div>
@@ -564,7 +564,7 @@ function displayCards(markers, title) {
        // add html for a location card
    html += `
        <div class="bg-white rounded-xl border border-black/10 p-4 shadow-sm hover:shadow-md transition mb-4">
-           <div class="text-xs font-semibold text-[#669BBC] uppercase mb-2">Asistencia legal</div>
+           <div class="text-xs font-semibold text-[#669BBC] uppercase mb-2">Asistencia</div>
            <div class="text-lg font-bold text-[#242423] mb-2">${data.title}</div>
            <div class="text-sm text-[#242423]/70 mb-2">${data.address}</div>
            <div class="text-sm text-[#669BBC] font-semibold mb-3">📞 ${data.pNum || 'Phone not available'}</div>
